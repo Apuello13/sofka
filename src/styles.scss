@@ -1,0 +1,23 @@
+@import './assets/_scss/variables.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: $family;
+    font-size: $body_size;
+}
+
+.hv{
+    height: 100vh;
+}
+
+.bg-dark{
+    background: $dark_blue !important;
+}
+
+.body{
+    background: $very_dark_blue;
+}

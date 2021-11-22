@@ -1,0 +1,46 @@
+@import "../../../assets/_scss/variables";
+
+.container-login {    
+    height: 100vh;
+    .container-form {
+        background: $ligth_red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .form {
+            background: $white;
+            height: 320px;
+            width: 350px;
+            padding: 30px 20px;
+            border-radius: 8px;
+            .form-group{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 10px;
+                .form-control{
+                    background: transparent;
+                    border-color: transparent;
+                    color: $very_dark_blue;
+                }
+            }
+        }
+    }
+}
+
+.bx{
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: $very_dark_blue;
+}
+
+.form-control:focus{
+    outline: transparent !important;
+}
